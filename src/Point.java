@@ -15,7 +15,4 @@ public class Point {
         return y;
     }
 
-
-
-
 }
