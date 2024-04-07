@@ -6,6 +6,7 @@ public class Main {
         point.setY(2.5);
         System.out.println("Wartość pola x = " + point.getX());
         System.out.println("Wartość pola y = " + point.getY());
+        System.out.println("ok");
 
     }
 
