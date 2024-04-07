@@ -7,6 +7,11 @@ public class Main {
         System.out.println("Wartość pola x = " + point.getX());
         System.out.println("Wartość pola y = " + point.getY());
         System.out.println("ok");
+        System.out.println("ok");
+        System.out.println("ok");
+        System.out.println("ok");
+        System.out.println("ok");
+        System.out.println("ok");
 
     }
 
