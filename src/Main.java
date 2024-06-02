@@ -1,17 +1,14 @@
+import geometry.Circle;
+import geometry.Point;
+
 public class Main {
     public static void main(String[] args){
 
-        Point point = new Point();
-        point.setX(6.5);
-        point.setY(2.5);
-        System.out.println("Wartość pola x = " + point.getX());
-        System.out.println("Wartość pola y = " + point.getY());
-        System.out.println("ok");
-        System.out.println("ok");
-        System.out.println("ok");
-        System.out.println("ok");
-        System.out.println("ok");
-        System.out.println("ok");
+
+        Point point = new Point(5,8);
+        Circle circle = new Circle(point, 11);
+
+        System.out.println(circle.calculatePerimeter());
 
     }
 
